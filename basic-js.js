@@ -305,7 +305,6 @@ default - stuff
 */
 function switchOfStuff(val) {
     let answer = "";
-    // Only change code below this line
     switch (val) {
         case "a":
             answer = "apple";
@@ -323,11 +322,24 @@ function switchOfStuff(val) {
     }
 
 
-    // Only change code above this line
     return answer;
 }
 
 switchOfStuff(1);
 
+/* 
+Make an object that represents a dog called myDog which contains the properties name (a string), legs, tails and friends.
 
+You can set these object properties to whatever values you want, as long as name is a string, legs and tails are numbers, and friends is an array.
+*/
+const myDog = {
+    name: "Tom",
+    legs: 4,
+    tails: 1,
+    friends: ["jerry", "ferry", "terry"]
 
+};
+
+/*
+
+*/
